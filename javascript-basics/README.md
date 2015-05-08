@@ -27,9 +27,11 @@ Place your code for these items in a file named `dom-utils.js` in the `js` direc
 For each of these, we'll be implementing some utility methods to do varios things with the DOM. In your file, create an object literal named `DOMUtils` (this can live in the global namespace) to add the methods to. This will effectively namespace our methods.
 
 1. Implement `DOMUtils.flattenDOM([node])`, which should return an array containing each node below the given node (including `node` itself), and should default to `document` if `node` is not provided.
-2. Impelement `DOMUtils.getIds([node])`, which should return an array of unique strings corresponding to all DOM node IDs attached to nodes below `node` (again, this should be inclusive of `node`, with `node` defaulting to `document` if not provided).
-3. Implement `DOMUtils.getClasses([node])`, which should return an array of unique strings corresponding to the values of all `class` attributes attached to nodes below `node` (inclusive of `node`, with `node` defaulting to `document` if not provided).
-4. Bonus: Make 2 and 3 "live" methods, such that the returned array has elements added and removed as the DOM changes.
+2. Impelement `DOMUtils.getIds([node])`, which should return an array of unique strings corresponding to all DOM node IDs attached to nodes below `node` (again, this should be inclusive of `node`, with `node` defaulting to `document` if not provided). The method should throw an exception of the argument is not an actual DOM node. To check this, you'll need to use the `instanceof` operator with the appropriate constructor name (which you're left to figure out).
+3. Implement `DOMUtils.getClasses([node])`, which should return an array of unique strings corresponding to the values of all `class` attributes attached to nodes below `node`. 
+4. Bonus: Make 2 and 3 "live" methods, such that the returned array has elements added and removed as the DOM changes. If you want some hints on how to do this, ask me.
+
+When you're done, commit and push all of your work and email me.
 
 ## References
 * [Prototypla Inheritance in Javascript (Douglas Crockford)](http://javascript.crockford.com/prototypal.html)
@@ -37,3 +39,4 @@ For each of these, we'll be implementing some utility methods to do varios thing
 * [Array reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Clone Arrays with Javascript](http://davidwalsh.name/javascript-clone-array)
 * [`throw` reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+* [`instanceof` reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
