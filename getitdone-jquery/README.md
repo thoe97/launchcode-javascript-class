@@ -8,7 +8,7 @@ If you'd like a warm-up, check out the [jQuery Tutorial at w3schools](http://www
 ## Getting ready
 In the `getitdone-jquery` directory set up your project files. You'll need an `index.html` file along with `css`, `js` and `lib` directories. Download [jQuery](http://jquery.com/download/) and [Boostrap](http://getbootstrap.com) and place the files within your `lib` directory.
 
-Stub out your `index.html` file, including the jQuery JS file, Bootstrap CSS and Bootstrap JS (). You should have something similar to the following in your `<head>`:
+Stub out your `index.html` file, including the jQuery JS file, Bootstrap CSS and Bootstrap JS. You should have something similar to the following in your `<head>`:
 ```html
 <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
@@ -16,7 +16,7 @@ Stub out your `index.html` file, including the jQuery JS file, Bootstrap CSS and
 <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 ```
 
-You'll probably want to create your own JS and CSS files, and you should store them in the `js` and `css` directories, respectively.
+You'll want to create your own JS file too. Call it whatever you like (e.g. `getitdone.js`) and put it in the `js` directory. Ditto for CSS, if you want to add to Bootstrap's styles.
 
 ## What to do
 
