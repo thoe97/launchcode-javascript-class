@@ -1,7 +1,7 @@
 # Get It Done! (jQuery Edition)
 
 ##Introduction
-We're going to exercise our new jQuery skills to build the front end of a task list app using jQuery and Bootstrap.
+We're going to exercise our new jQuery skills to build the front end of a task list app using jQuery and Bootstrap. Let's call it Get It Done!&trade;
 
 If you'd like a warm-up, check out the [jQuery Tutorial at w3schools](http://www.w3schools.com/jquery/). You can also find jQuery lessons on Treehouse (login info is on the ReBootU blackboard site).
 
