@@ -16,7 +16,7 @@ Stub out your `index.html` file, including the jQuery JS file, Bootstrap CSS and
 <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 ```
 
-You'll probably want to create your own JS and CSS files, and you should store them in the `js` and `css` directories, respectively.
+You'll want to create your own JS file too. Call it whatever you like (e.g. `getitdone.js`) and put it in the `js` directory. Ditto for CSS, if you want to add to Bootstrap's styles.
 
 ## What to do
 
