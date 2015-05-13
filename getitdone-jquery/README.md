@@ -12,8 +12,8 @@ Stub out your `index.html` file, including the jQuery JS file, Bootstrap CSS and
 ```html
 <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
-<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 ```
 
 You'll probably want to create your own JS and CSS files, and you should store them in the `js` and `css` directories, respectively.
@@ -26,6 +26,8 @@ Use Bootsrap and jQuery to build a to-do list app. How you design and implement 
 * You should have a list of to-dos that items are added to.
 * Each item in the list should be able to be "completed" by checking it off in some way. How this works in the interafce is up to you. Additionally, whether you keep those to-dos around in a "completed" status is up to you as well.
 * Users should be able to delete to-dos from their list without completing them.
+* Use [Bootstrap CSS](http://getbootstrap.com/css/) and [Bootstrap components](http://getbootstrap.com/components/) to make your elements look attractive and consistent (e.g. you may find Forms, Input groups, Buttons, or Glyphicons useful).
+* Make sure your content is in a [Bootstrap container](http://getbootstrap.com/css/#grid) and uses the grid system, if you have multiple rows or columns.
 * You should implement one additional feature.
 
 When you're done, commit and push your code, and let me know via email.
