@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/DOMUtils.js"></script>
+	<title>Testing DOMUtils.js</title>
+	<script>
+	window.onload = function(){
+		var flatDom = DOMUtils.flattenDOM();
+		console.log(flatDom);
+		
+		
+		
+		var numDomElements = flatDom.length;
+		var classes = DOMUtils.getClasses();
+		var ids = DOMUtils.getIds();
+		
+		document.getElementById("num-dom-elements").innerHTML = numDomElements;
+		document.getElementById("classes").innerHTML = classes.join(", ");
+		document.getElementById("ids").innerHTML = ids.join(", ");
+	};
+	</script>
+</head>
+<body>
+	<h1 class="page-title">Testing DOMUtils.js</h1>
+	
+	<p style="color: red; text-transform: uppercase; display: none;">DOMUtils did not load!</p>
+	
+	<ul>
+		<li class="first duplicate">fist item</li>
+		<li class="second test-two-classes">second item</li>
+		<li class="third test-two-classes test-three-classes duplicate">third item</li>
+	</ul>
+	
+	<p id="first-paragraph">first paragraph</p>
+	<p id="second-paragraph">second paragraph</p>
+	<p id="third-paragraph">third paragraph</p>
+	
+	<hr />
+	
+	<ul>
+		<li># of DOM elements: <span id="num-dom-elements"></span></li>
+		<li>Classes: <span id="classes"></span></li>
+		<li>IDs: <span id="ids"></span></li>
+	</ul>
+	
+</body>
+</html>
