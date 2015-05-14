@@ -28,7 +28,15 @@ Use Bootsrap and jQuery to build a to-do list app. How you design and implement 
 * Users should be able to delete to-dos from their list without completing them.
 * Use [Bootstrap CSS](http://getbootstrap.com/css/) and [Bootstrap components](http://getbootstrap.com/components/) to make your elements look attractive and consistent (e.g. you may find Forms, Input groups, Buttons, or Glyphicons useful).
 * Make sure your content is in a [Bootstrap container](http://getbootstrap.com/css/#grid) and uses the grid system, if you have multiple rows or columns.
-* You should implement one additional feature.
+* You should implement one additional feature. For example, maybe the user can set a date or a note on the to-do. Or maybe There's an aggregate count of un/completed to-dos displayed. Or maybe they can give each to-do a "priority."
+
+Not sure how to start? Here's a basic outline of how you might proceed:
+* Think about and sketch or list out the features your app will have, on paper.
+* Stub out your html, css, and js files first. 
+* Based on your initial design ideas, drop in some container elements, using Bootstrap to arrange and size.
+* Put your top-level items in place: the form and input, the container where your un/completed to-dos will go, any header or title, etc.
+* Hook up some initial event handling to the form submission, to take the input value and insert it into your list. Make sure you can add multiple items in a row, with items appended to the list (by the way, you should probably use `ul` and `li` tags here.)
+* Make your list items look nice. Then start adding actions that allow users to complete and delete.
 
 When you're done, commit and push your code, and let me know via email.
 
@@ -51,3 +59,5 @@ Some of these are web-based, and some are apps (and some are both). Some are sub
 * [Official site](https://jquery.com)
 * [w3schools jQuery documentation](http://www.w3schools.com/jquery/)
 * [jQuery learning center](http://learn.jquery.com)
+* [$ vs $()](http://learn.jquery.com/using-jquery-core/dollar-object-vs-function/)
+* [Using native JS for selectors only](http://blog.romanliutikov.com/post/63383858003/how-to-forget-about-jquery-and-start-using-native)
