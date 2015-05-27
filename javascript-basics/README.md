@@ -3,7 +3,7 @@
 In this exercise, we'll use JS objects and prototypes, play with the Document Object Model (DOM), and get used to some functional patterns in JS.
 
 ## Getting Ready
-Do the first few exercises in [Functional Javascript RebootU](https://github.com/jesseilev/functional-javascript-rebootu) exercises, at least up until ("Basic: Reduce").
+Do the first few exercises in [Functional Javascript RebootU](https://github.com/jesseilev/functional-javascript-rebootu), at least up until ("Basic: Reduce").
 
 Optionally, you may also find it useful to complete the [Planet Proto workshopper](http://nodeschool.io/#workshoppers).
 
